@@ -1,7 +1,8 @@
 # cookies-wromo-cdn
 
-Cookies banner can be listed to any page that automatically lists Cookies banner the website end Domain name, with the global design: served Global via CDN. 
-The method is for any type of code.
+Cookies banner can be listed to any page that automatically lists Cookies banner in website. And list the name of the Domain where the banner is located, with the global design: served Global via CDN. 
+
+## The method is for any type of code.
 
 status (accepted or declined) inject to localStorage users webpage
 
