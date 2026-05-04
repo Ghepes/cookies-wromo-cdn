@@ -1,2 +1,52 @@
 # cookies-wromo-cdn
-Cookies banner that appears automatically and can be listed in any page that automatically lists the website name with the global design: it is served as an npm package to serve Global via CDN. MIT License by WROMO
+
+Cookies banner can be listed to any page that automatically lists Cookies banner the website end Domain name, with the global design: served Global via CDN. 
+The method is for any type of code.
+
+status (accepted or declined) inject to localStorage users webpage
+
+
+## Initialization method lists Cookies banner 
+
+Insert Before end body:
+CDN Format
+````
+<script src="https://cdn.jsdelivr.net/gh/ghepes/cookies-wromo-cdn@main/wromo-cookies.js"></script>
+</body>
+</html>
+````
+
+Local Format
+````
+<script src="/wromo-cookies.js"></script>
+</body>
+</html>
+````
+
+
+## CDN RULES
+Convert the URL (blob) to a network URL (CDN).
+
+### Conversion rule
+Structura URL example: `https://cdn.jsdelivr.net/gh/USER/REPO@BRANCH/FILE`
+
+### Your test URL:
+**Master version (Cache 24h):**
+`https://cdn.jsdelivr.net/gh/USER/REPO@main/wromo-cookies.js`
+
+**No Cache Variant (for Development/Testing):**
+Add a false parameter at the end to force the browser to ignore the local cache:
+`https://cdn.jsdelivr.net/gh/USER/REPO@main/wromo-cookies.js?v=123`
+
+---
+
+### Testing checkpoints:
+*   **Header:** Check in Network Tab (F12) if `content-type` este `application/json`.
+*   **Purge:** If you push to GitHub and don't see the change, go to:
+    `https://purge.jsdelivr.net/gh/USER/REPO@main/wromo-cookies.js`
+*   **Version:** If you really want 100% certainty, use the commit hash instead. `main`:
+    `https://cdn.jsdelivr.net/gh/USER/REPO@HASH_COMMIT/wromo-cookies.js`
+
+
+    
+MIT License by WROMO
