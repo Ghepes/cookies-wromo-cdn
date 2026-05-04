@@ -1,4 +1,4 @@
-/** Cookie Banner Initialization License MIT by Wromo https://github.com/ghepes/cookies-wromo-cdn.git */
+/** Cookie Banner Initialization License MIT by Wromo https://github.com/ghepes/cookies-wromo-cdn.git v1.0.1 */
 (function() {
     // Main function
     function initCookieBanner() {

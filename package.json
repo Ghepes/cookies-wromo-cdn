@@ -1,6 +1,6 @@
 {
   "name": "wromo-cookies-cdn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cookies banner can be listed to any page that automatically lists Cookies banner the website end Domain name, with the global design: served Global via CDN. The method is for any type of code.",
   "main": "index.js",
   "unpkg": "wromo-cookies.js",

@@ -12,7 +12,8 @@ status (accepted or declined) inject to localStorage users webpage
 Insert Before end body:
 CDN Format 
 
-NPM CDN FORMAT with ...min.js format
+NPM CDN FORMAT /npm/
+...min.js
 ````
 <script src="https://cdn.jsdelivr.net/npm/wromo-cookies-cdn@1.0.0/wromo-cookies.min.js"></script>
 ````
@@ -21,7 +22,7 @@ or
 <script src="https://cdn.jsdelivr.net/npm/wromo-cookies-cdn@1.0.0/wromo-cookies.js"></script>
 ````
 
-GITHUB format
+GITHUB CDN format /gh/
 ````
 <script src="https://cdn.jsdelivr.net/gh/ghepes/cookies-wromo-cdn@main/wromo-cookies.js"></script>
 </body>
@@ -36,6 +37,10 @@ Local Format
 ````
 ## React/Vue/Svelte
 It works via import for developers who want to include it in React/Vue/Svelte applications.
+install
+````
+npm i wromo-cookies-cdn
+````
 
 
 ## CDN RULES
