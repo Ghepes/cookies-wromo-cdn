@@ -1,0 +1,19 @@
+{
+  "name": "wromo-cookies-cdn",
+  "version": "1.0.0",
+  "description": "Cookies banner can be listed to any page that automatically lists Cookies banner the website end Domain name, with the global design: served Global via CDN. The method is for any type of code.",
+  "main": "index.js",
+  "unpkg": "wromo-cookies.js",
+  "jsdelivr": "wromo-cookies.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ghepes/cookies-wromo-cdn.git"
+  },
+  "keywords": [
+    "cookies",
+    "injection",
+    "cdn"
+  ],
+  "author": "Ghepes",
+  "license": "MIT"
+}
