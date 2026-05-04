@@ -11,7 +11,7 @@ status (accepted or declined) inject to localStorage users webpage
 Insert Before end body:
 CDN Format
 ````
-<script src="https://cdn.jsdelivr.net/gh/ghepes/cookies-wromo-cdn@main/wromo-cookies.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ghepes/cookies-wromo-cdn@1.0.0/wromo-cookies.js"></script>
 </body>
 </html>
 ````
