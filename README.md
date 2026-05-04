@@ -22,6 +22,8 @@ Local Format
 </body>
 </html>
 ````
+## React/Vue/Svelte
+It works via import for developers who want to include it in React/Vue/Svelte applications.
 
 
 ## CDN RULES
