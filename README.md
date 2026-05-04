@@ -9,9 +9,20 @@ status (accepted or declined) inject to localStorage users webpage
 ## Initialization method lists Cookies banner 
 
 Insert Before end body:
-CDN Format
+CDN Format 
+
+NPM CDN FORMAT with ...min.js format
 ````
-<script src="https://cdn.jsdelivr.net/gh/ghepes/cookies-wromo-cdn@1.0.0/wromo-cookies.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/wromo-cookies-cdn@1.0.0/wromo-cookies.min.js"></script>
+````
+or
+````
+<script src="https://cdn.jsdelivr.net/npm/wromo-cookies-cdn@1.0.0/wromo-cookies.js"></script>
+````
+
+GITHUB format
+````
+<script src="https://cdn.jsdelivr.net/gh/ghepes/cookies-wromo-cdn@main/wromo-cookies.js"></script>
 </body>
 </html>
 ````
