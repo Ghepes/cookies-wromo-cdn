@@ -1,6 +1,6 @@
 {
   "name": "wromo-cookies-cdn",
-  "version": "1.5.1",
+  "version": "1.5.0",
   "description": "Wromo Cookies Universal Pro. improvements with GDPR requirements compliance with data cookies saving in Sheet Google via Apps script, serv CDN global.",
   "main": "index.js",
   "unpkg": "wromo-cookies.js",
